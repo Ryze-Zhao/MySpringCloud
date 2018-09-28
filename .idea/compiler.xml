@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka8761" />
         <module name="MySpringCloud" />
+        <module name="provide9000" />
       </profile>
     </annotationProcessing>
   </component>
