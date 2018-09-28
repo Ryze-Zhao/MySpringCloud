@@ -13,7 +13,7 @@ public class ConsumerController {
 
     @GetMapping(value = "/consumerProvide")
     public String useProvideController() {
-        return consumerService.useProvideService()+"my name is consumer9100";
+        return consumerService.useProvideService()+"my name is consumer9101";
     }
 
 }
