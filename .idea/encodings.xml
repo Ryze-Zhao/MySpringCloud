@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/consumer9100" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer9101" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer9102" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer9103" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka8761" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provide9000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provide9001" charset="UTF-8" />

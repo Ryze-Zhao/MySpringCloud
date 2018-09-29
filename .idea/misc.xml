@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/consumer9100/pom.xml" />
         <option value="$PROJECT_DIR$/provide9001/pom.xml" />
         <option value="$PROJECT_DIR$/consumer9101/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer9102/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer9103/pom.xml" />
       </list>
     </option>
   </component>

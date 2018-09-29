@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consumer9100" />
         <module name="consumer9101" />
+        <module name="consumer9102" />
+        <module name="consumer9103" />
         <module name="eureka8761" />
         <module name="MySpringCloud" />
         <module name="provide9000" />
