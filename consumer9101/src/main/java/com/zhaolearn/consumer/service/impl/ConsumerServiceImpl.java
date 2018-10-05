@@ -1,5 +1,6 @@
 package com.zhaolearn.consumer.service.impl;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.zhaolearn.consumer.service.ConsumerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
@@ -15,7 +16,13 @@ public class ConsumerServiceImpl implements ConsumerService {
     RestTemplate restTemplate;
 
     @Override
+    @HystrixCommand(fallbackMethod = "showError")
     public String useProvideService() {
-            return restTemplate.getForObject("http://"+SERVICE_NAME+"/study",String.class);
+        return restTemplate.getForObject("http://"+SERVICE_NAME+"/study",String.class);
     }
+
+    public String showError() {
+        return "对唔住，出错了";
+    }
+
 }
