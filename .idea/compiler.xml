@@ -14,6 +14,7 @@
         <module name="MySpringCloud" />
         <module name="provide9000" />
         <module name="provide9001" />
+        <module name="zuul8888" />
       </profile>
     </annotationProcessing>
   </component>
