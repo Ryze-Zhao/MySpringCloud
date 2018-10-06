@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class ConsumerServiceImpl implements ConsumerService {
     //这是Provide9000的yml配置的名字
-    private static final String SERVICE_NAME = "Provide9000";
+    private static final String SERVICE_NAME = "Provide";
 
     @Autowired
     RestTemplate restTemplate;
