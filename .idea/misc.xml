@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/zuul8888/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin8900/pom.xml" />
         <option value="$PROJECT_DIR$/configserver11000/pom.xml" />
+        <option value="$PROJECT_DIR$/configserver11001/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="configserver11000" />
+        <module name="configserver11001" />
         <module name="consumer9100" />
         <module name="consumer9101" />
         <module name="consumer9102" />
