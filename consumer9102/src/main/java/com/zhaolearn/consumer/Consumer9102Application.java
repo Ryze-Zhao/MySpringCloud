@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-@EnableHystrixDashboard
 public class Consumer9102Application {
 
     public static void main(String[] args) {
