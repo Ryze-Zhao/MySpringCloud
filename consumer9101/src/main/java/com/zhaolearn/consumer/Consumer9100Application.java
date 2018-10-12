@@ -10,6 +10,7 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.netflix.turbine.EnableTurbine;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
@@ -17,19 +18,17 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableHystrix
-public class Consumer9101Application {
-
+public class Consumer9100Application {
     public static void main(String[] args) {
-        SpringApplication.run(Consumer9101Application.class, args);
+        SpringApplication.run(Consumer9100Application.class, args);
     }
-
     @Bean
     @LoadBalanced
     RestTemplate restTemplate() {
         return new RestTemplate();
     }
 
-    @Bean
+  @Bean
     public ServletRegistrationBean getServlet(){
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
         ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
@@ -38,4 +37,5 @@ public class Consumer9101Application {
         registrationBean.setName("HystrixMetricsStreamServlet");
         return registrationBean;
     }
+
 }

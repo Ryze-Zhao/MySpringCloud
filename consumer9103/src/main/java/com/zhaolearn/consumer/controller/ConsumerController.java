@@ -13,7 +13,7 @@ public class ConsumerController {
 
     @GetMapping(value = "/feignStudy")
     public String sayHi() {
-        return consumerService.study()+"my name is feignConsumer9103";
+        return consumerService.study()+"my name is feignConsumer9102";
     }
 
 }
