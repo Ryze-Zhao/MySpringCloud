@@ -17,7 +17,6 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableHystrix
-@EnableCircuitBreaker
 @EnableHystrixDashboard
 public class Consumer9101Application {
 
@@ -31,13 +30,4 @@ public class Consumer9101Application {
         return new RestTemplate();
     }
 
-    @Bean
-    public ServletRegistrationBean getServlet(){
-        HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
-        ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
-        registrationBean.setLoadOnStartup(1);
-        registrationBean.addUrlMappings("/actuator/hystrix.stream");
-        registrationBean.setName("HystrixMetricsStreamServlet");
-        return registrationBean;
-    }
 }
