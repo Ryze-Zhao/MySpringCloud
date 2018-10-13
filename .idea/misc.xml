@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/hystrix-dashboard8777/pom.xml" />
         <option value="$PROJECT_DIR$/consumer9101/pom.xml" />
         <option value="$PROJECT_DIR$/consumer9103/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka8762/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka8763/pom.xml" />
       </list>
     </option>
   </component>

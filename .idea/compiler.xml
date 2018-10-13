@@ -13,6 +13,8 @@
         <module name="consumer9102" />
         <module name="consumer9103" />
         <module name="eureka8761" />
+        <module name="eureka8762" />
+        <module name="eureka8763" />
         <module name="hystrix-dashboard8777" />
         <module name="MySpringCloud" />
         <module name="provide9000" />
