@@ -1,7 +1,7 @@
 # F版SpringCloud研习
 
 #### 项目介绍
-主要是学习SpringCloud的F版的构建和使用
+主要是学习SpringCloud的F版的构建和使用，分支hehaozhao才是最新的文档
 
 #### 软件架构
 软件架构说明
