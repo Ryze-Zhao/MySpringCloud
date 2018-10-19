@@ -23,5 +23,22 @@
         <module name="zuul8888" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configserver11000" target="1.8" />
+      <module name="configserver11001" target="1.8" />
+      <module name="consumer9100" target="1.8" />
+      <module name="consumer9101" target="1.8" />
+      <module name="consumer9102" target="1.8" />
+      <module name="consumer9103" target="1.8" />
+      <module name="eureka8761" target="1.8" />
+      <module name="eureka8762" target="1.8" />
+      <module name="eureka8763" target="1.8" />
+      <module name="hystrix-dashboard8777" target="1.8" />
+      <module name="MySpringCloud" target="1.5" />
+      <module name="provide9000" target="1.8" />
+      <module name="provide9001" target="1.8" />
+      <module name="zipkin8900" target="1.8" />
+      <module name="zuul8888" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -15,14 +15,14 @@ public class ConsumerController {
     @Autowired
     ConsumerService consumerService;
 
-    @Value("${myname}")
-    String myname;
-    @Value("${age}")
-    String age;
+   @Value("${MyApplicationName}")
+    String MyApplicationName;
+    @Value("${MyServerPort}")
+    String MyServerPort;
 
     @RequestMapping(value = "/testConfig")
     public String testConfig(){
-        return myname+"----"+age;
+        return MyApplicationName+"----"+MyServerPort;
     }
 
 
